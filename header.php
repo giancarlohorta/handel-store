@@ -21,7 +21,7 @@ $cart_count = WC()->cart->get_cart_contents_count();
 $cart_count;
 ?>
 
-<header class="header">
+<header class="header continer">
   <a href="/"><img src="<?= $img_url; ?>/handel.svg" alt="Handel"></a>
   <div class="busca">
     <form action="<?php bloginfo('url')?>/shop/" method="get">
@@ -30,7 +30,7 @@ $cart_count;
       <input type="submit" id="searchbutton" value="Buscar">
     </form>
   </div>
-  <nav class="account">
+  <nav class="conta">
     <a href="/minha-conta" class="minha-conta">Minha Conta</a>
     <a href="/carrinho" class="carrinho">Carrinho
     <?php if($cart_count) { ?>
