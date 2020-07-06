@@ -21,7 +21,7 @@ $cart_count = WC()->cart->get_cart_contents_count();
 $cart_count;
 ?>
 
-<header class="header continer">
+<header class="header container">
   <a href="/"><img src="<?= $img_url; ?>/handel.svg" alt="Handel"></a>
   <div class="busca">
     <form action="<?php bloginfo('url')?>/shop/" method="get">

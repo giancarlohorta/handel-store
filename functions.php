@@ -43,7 +43,7 @@ function handel_product_list($products) {
               <h2><?= $product['name'] ?> - <span><?= $product['price'] ?> </span></h2>
             </div>
             <div class="product-overlay">
-              <span>Ver Mais</span>
+              <span class="btn-link">Ver Mais</span>
             </div>
           </a>
         </li>
