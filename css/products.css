@@ -3,6 +3,12 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
+@media (max-width: 800px) {
+  .products-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
 .products-list h2 {
   margin-top: 5px;
   font-size: 0.725rem;

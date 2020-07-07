@@ -34,6 +34,7 @@ img {
 .container {
   max-width: 1000px;
   margin: 60px auto;
+  padding: 0 20px;
 }
 .hidden {
   display: none;
