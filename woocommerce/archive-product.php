@@ -17,7 +17,6 @@ $data['products'] = format_products($products);
 
 <article class="container products-archive">
   <nav class="filtros">
-    <h2>Filtros</h2>
     <div class="filtro">
       <h3 class="filtro-titulo">Categorias</h3>
       <?php wp_nav_menu([
